@@ -24,7 +24,7 @@ Train and evaluation without conservation: `config/train-deafult.groovy`
 
 Train and evaluation with conservation: `config/train-conservation.groovy`
 
-[Download Configuration files](https://github.com/AndreaSoltes/p2rank_experiment/files/8869047/configuration_files.zip)
+[Download Configuration files](https://github.com/AndreaSoltes/p2rank_experiment/files/8879784/configurations.zip)
 
 ### Training prediction P2Rank model without conservation information
 
@@ -42,8 +42,7 @@ Train and evaluation with conservation: `config/train-conservation.groovy`
 
 `MCC=0.4794`
 
-[Further Details](https://github.com/AndreaSoltes/p2rank_experiment/files/8869635/results_without_conservation.zip)
-
+[Further Details](https://github.com/AndreaSoltes/p2rank_experiment/files/8879837/results_without_conservation.zip)
 
 ### Training prediction P2Rank model with conservation information
 
@@ -61,4 +60,4 @@ Train and evaluation with conservation: `config/train-conservation.groovy`
 
 `MCC=0.5102`
 
-[Further Details](https://github.com/AndreaSoltes/p2rank_experiment/files/8869638/results_with_conservation.zip)
+[Further Details](https://github.com/AndreaSoltes/p2rank_experiment/files/8879836/results_with_conservation.zip)
