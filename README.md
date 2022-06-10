@@ -48,7 +48,7 @@ Train and evaluation with conservation: `config/train-conservation.groovy`
 ### Training prediction P2Rank model with conservation information
 
 ~~~bash
-./prank.sh traineval -t ../p2rank-datasets/holo4k_train-fpocket.ds -e ../p2rank-datasets/holo4k_val-fpocket.ds -config config/train-conservation.groovy -rf_depth 12 -visualizations 0 -rf_threads 10 -rf_trees 100 -delete_models 0 -loop 1 -seed 42
+./prank.sh traineval -t ../p2rank-datasets/holo4k_train-fpocket.ds -e ../p2rank-datasets/holo4k_val-fpocket.ds -config config/train-conservation.groovy -rf_depth 12 -visualizations 0 -rf_threads 10 -rf_trees 100 -delete_models 0 -loop 1 -seed 42 -label conservation -conservation_dirs holo4k/conservation/e5i1/scores/
 ~~~
 
 ### Evaluation of P2Rank model with conservation information
