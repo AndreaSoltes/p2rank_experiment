@@ -3,7 +3,7 @@ Model training and evaluation on Holo4k dataset splits
 
 ### Build used for training and evaluation:
 
-https://github.com/rdk/p2rank/tree/develop (commit 836cb0189db3d6253372d60b896d7fa4b828b1bd)
+https://github.com/rdk/p2rank/tree/836cb0189db3d6253372d60b896d7fa4b828b1bd
 
 Memory in `local-env.sh` set to `"-Xmx128G"`
 
